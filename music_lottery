@@ -1,0 +1,22 @@
+/******************************************************************************
+Lesson 02.05
+*******************************************************************************/
+
+#include <stdio.h>
+int main()
+{
+    char cName [25], cSex [10], sMusic [30];
+    printf ("Answer the questions to be rewarded!\n");
+    printf ("What is your Full Name? ");
+    scanf ("%[^\n]", cName);
+    printf ("What is your Sex? ");
+    scanf ("\n%[^\n]", cSex);
+    printf ("What is your Favourite Music? ");
+    scanf ("\n%[^\n]", sMusic);
+
+    printf ("\nCONGRADULATIONS!\n");
+    printf ("%s (%s), you won! The style of music \"%s\" is rewarded today!",  cName, cSex, sMusic);
+    printf ("\nCall us to 00774635342 to get THE PRIZE!");
+
+    return 0;
+}
