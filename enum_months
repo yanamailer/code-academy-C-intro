@@ -1,0 +1,17 @@
+/******************************************************************************
+Lesson 28 Apr, Presentation Page 19, Task 5
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+    enum months {January = 1, February, March, April, May, June, July, August, September, October, November, December};
+
+    printf("Serial Numbers of Winter Months: %d, %d, %d\n", January, November, December);
+    printf("Serial Numbers of Spring Months: %d, %d, %d\n", March, April, May);
+    printf("Serial Numbers of Summer Months: %d, %d, %d\n", June, July, August);
+    printf("Serial Numbers of Autumn Months: %d, %d, %d\n", September, October, November);
+
+    return 0;
+}
