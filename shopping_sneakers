@@ -1,0 +1,32 @@
+/******************************************************************************
+Lesson 5 May, Task -  SNEAKERS 2
+*******************************************************************************/
+
+#include <stdio.h>
+#include <stdbool.h>
+#include <string.h>
+
+int main () 
+{
+    float fPriceSneakers = 100.3;
+    int iNumberSneakers = 45;
+    char cCholorSneakers[10] = "white";
+    bool bRecall = true;
+
+    if (fPriceSneakers <= 150 && (iNumberSneakers == 44 || iNumberSneakers == 45) && bRecall == true)
+    {
+        printf ("Sneakers are great!\n");
+        
+        if (strcmp (cCholorSneakers, "black") != 0)
+        {
+            printf ("We have no black sneakers. Would you like to see another colors available?\n");
+        }
+        
+    } else {
+        
+        printf ("Look for another sneakers\n");
+    }
+
+return 0;
+
+}
