@@ -1,0 +1,47 @@
+/******************************************************************************
+Lesson 9 May, Task - VENDING MACHINE 
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main() {
+    
+    printf ("-- Our Menu --\n");
+    printf ("1 - Chocolate\n");
+    printf ("2 - Pretzels\n");
+    printf ("3 - Salted cookies\n");
+    printf ("4 - Sweet cookies\n");
+    printf ("5 - Water\n");
+    printf ("6 - Juice\n");
+    printf ("Choose one!\n\n");
+    
+    char item;
+    item = 4;
+    switch (item)
+    {
+        case 1:
+            printf("You choose chocolate.\n");
+            break;
+        case 2:
+            printf("You choose pretzels.\n");
+            break;
+        case 3:
+            printf("You choose salted cookies.\n");
+            break;
+        case 4:
+            printf("You choose sweet cookies.\n");
+            break;
+        case 5:
+            printf("You choose water.\n");
+            break;
+        case 6:
+            printf("You choose juice.\n");
+            break;
+        default:
+            printf ("You choose NOTHING\n");
+break;
+    }
+    
+    printf ("Thank you for shopping!\n");
+    return 0;
+}
