@@ -1,0 +1,32 @@
+/******************************************************************************
+Lesson 5 May, Task - FITNESS
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+    int plan;
+    printf ("Welcome to our GYM! Choose your plan.\n");
+    printf ("Press 1 for Power Plan, 2 for Endurance Plan, 3 for Muscle Tone Plan\n");
+    scanf ("%d", &plan);
+
+    if (plan == 1)
+    {
+        printf ("Do exercises with the maximum weight you can, repeat 6 times\n");
+    }
+    else if (plan == 2) 
+    {
+        printf ("Do exercises with the light weight of 5-10 kg, repeat 20 times\n");
+    }
+    else if (plan == 3)
+    {
+        printf ("Do exercises with the medium weight untill 20 kg, repeat 15 times");
+    }
+    else 
+    {
+        printf ("You pressed the wrong button!");
+    }
+
+    return 0;
+}
